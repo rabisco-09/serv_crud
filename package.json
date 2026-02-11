@@ -4,7 +4,8 @@
   "description": "CRUD em servidor",
   "main": "servidor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js"
   },
   "repository": {
     "type": "git",
@@ -13,9 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/rabisco-09/serv_crud/issues"
   },
-  "homepage": "https://github.com/rabisco-09/serv_crud#readme"
+  "homepage": "https://github.com/rabisco-09/serv_crud#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
